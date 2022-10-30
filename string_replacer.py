@@ -1,6 +1,6 @@
 def replace_strings():
     # Open the file sales.txt.
-    infile = open('sales.txt', 'r')
+    infile = open('./files/test.txt', 'r')
 
     # Read the file's contents.
     contents = infile.read()
@@ -15,7 +15,7 @@ def replace_strings():
     contents = contents.replace('$', '£')
 
     # Open the file sales.txt.
-    outfile = open('sales.txt', 'w')
+    outfile = open('./files/new_file.txt', 'w')
 
     # Write the modified contents to the file.
     outfile.write(contents)
