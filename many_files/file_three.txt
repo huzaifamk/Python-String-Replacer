@@ -1,0 +1,2 @@
+This is the third test file with word "Python", '{Python}' and "Python" in it.
+Python
